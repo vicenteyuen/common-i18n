@@ -33,4 +33,21 @@
   	<url>https://github.com/visonruan/common-i18n/tree/${project.scm.tag}</url>
   	<developerConnection>scm:git:https://github.com/visonruan/common-i18n.git</developerConnection>
   </scm>
+  <organization>
+  	<name>VSG</name>
+  </organization>
+  <distributionManagement>
+  	<repository>
+  		<uniqueVersion>true</uniqueVersion>
+  		<id>ma-nexus-release</id>
+  		<name>MA Businesss Component lib release</name>
+  		<url>http://114.55.228.150:8881/nexus/content/repositories/personal-hatchery-release</url>  		
+  	</repository>  
+  	<snapshotRepository>
+  		<uniqueVersion>true</uniqueVersion>
+  		<id>ma-nexus-snapshots</id>
+  		<name>MA Businesss Component lib Snapshots</name>
+  		<url>http://114.55.228.150:8881/nexus/content/repositories/personal-hatchery-snapshot</url>
+  	</snapshotRepository>
+  </distributionManagement>
 </project>
