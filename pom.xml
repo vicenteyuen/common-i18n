@@ -27,4 +27,10 @@
   <properties>
   	<slf4j.version>1.7.21</slf4j.version>
   </properties>
+  <scm>
+  	<tag>master</tag>
+  	<connection>scm:git:https://github.com/visonruan/common-i18n.git</connection>
+  	<url>https://github.com/visonruan/common-i18n/tree/${project.scm.tag}</url>
+  	<developerConnection>scm:git:https://github.com/visonruan/common-i18n.git</developerConnection>
+  </scm>
 </project>
