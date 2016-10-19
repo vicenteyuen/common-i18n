@@ -39,15 +39,15 @@
   <distributionManagement>
   	<repository>
   		<uniqueVersion>true</uniqueVersion>
-  		<id>ma-nexus-release</id>
-  		<name>MA Businesss Component lib release</name>
-  		<url>http://114.55.228.150:8881/nexus/content/repositories/personal-hatchery-release</url>  		
+  		<id>sonatype-nexus-staging</id>
+  		<name>Vsg Businesss Component lib release</name>
+  		<url>http://oss.sonatype.org/content/repositories/releases</url>  		
   	</repository>  
   	<snapshotRepository>
   		<uniqueVersion>true</uniqueVersion>
-  		<id>ma-nexus-snapshots</id>
-  		<name>MA Businesss Component lib Snapshots</name>
-  		<url>http://114.55.228.150:8881/nexus/content/repositories/personal-hatchery-snapshot</url>
-  	</snapshotRepository>
+  		<id>sonatype-nexus-snapshots</id>
+  		<name>Vsg Businesss Component lib Snapshots</name>
+  		<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+  	</snapshotRepository>  
   </distributionManagement>
 </project>
